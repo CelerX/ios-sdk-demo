@@ -1,6 +1,6 @@
 # CelerX iOS Game Demo: 2048
 
-This is the demo repo for CelerX native iOS game SDK with a simple 2048 game.
+This is a demo repo for CelerX native iOS game SDK for an example 2048 game.
 
 ## Download Necessary Depedencies
 
