@@ -1,12 +1,17 @@
-# iOSDemoForSDK  Game: 2048
-This is the demo repo for CelerGameSDK
+# CelerX iOS Game Demo: 2048
+
+This is the demo repo for CelerX native iOS game SDK with a simple 2048 game.
 
 ## Download Necessary Depedencies
+
 -- Debug
+
 ```shell
 sh downloadLibs.sh
 ```
+
 -- Release
+
 ```shell
 sh downloadReleaseLibs.sh
 ```
@@ -14,6 +19,7 @@ sh downloadReleaseLibs.sh
 It will download all the required dependencies for CelerGameSDK
 
 ## Project setup for compiling
+
 - Embed everything from the dependencies folder
 ![embed](./img/embedLibs.png)
 - Change `Celersdk.framework` to `Do not embed`
@@ -29,16 +35,19 @@ It will download all the required dependencies for CelerGameSDK
 - Add necessary permissions
 
 ## Prerequisites
+
 --
+
 - Necessary Assets
 [assets file](grphicAssetsIntegration.pdf)
 
 - Push Certificates
 
 ## Permissions
+
 Permission | Reason
 ------------ | -------------
-Location | Required by law when play real money game 
+Location | Required by law when play real money game
 Microphone | Used by Instabug
 Album | Allow user to upload profile pictures
 iCloud | Back up user wallet
@@ -50,28 +59,33 @@ Bluetooth Peripherals | requiredfrom a payment vendor
 Universal Link | Promotions
 
 --
-Camera, Alnum and Bluetooth Peripherals are required for appstore submission, Location is required for real money games 
-
+Camera, Alnum and Bluetooth Peripherals are required for appstore submission, Location is required for real money games
 
 ## Integrate with our sdk
 
 ### Import Framework
+
 ```objc
 #import <CelerGameSdk/CelerGameSdk.h>
 ```
 
 ### Init SDK
+
 ```objc
 [CelerGame initializeSdk];
 ```
+
 --
 Try not to call this function at app's start or start of your first view, do this  when you have passed your initial loading screen, and preferably being trigger by user action, delay one runloop if you'll have to present sdk UI at launch
 
 ### Register Celer Game SDK Life Cycle
+
 ```objc
 [CelerGame setSdkDelegate:self];
 ```
+
 ### CelerSdkDelegate
+
 ```objc
 - (void)matchSeedGenerated:(double)seed
 
@@ -81,7 +95,8 @@ Try not to call this function at app's start or start of your first view, do thi
 
 - (void)onResult
 ```
-matchSeedGenerated 
+
+matchSeedGenerated
 ----
 
 This callback provides a double type seed in order to generate a random level fair to the players, seed will range from 0 ~ 1
@@ -93,6 +108,7 @@ This callback provides necessary infomation about the match in a json package, d
 
 gameObject
 ----
+
 For Objective C, gameObject will be a dictionary formatted as below：
 
 ```json
@@ -120,6 +136,7 @@ For Objective C, gameObject will be a dictionary formatted as below：
    }
 }
 ```
+
 onReady
 ----
 
@@ -131,6 +148,7 @@ onResult
 Do some clean up work
 
 ### CelerGameSdk method
+
 ```objc
 [[CelerGame shared] sendWithCallback:CelerGameStateOnLoaded];
 
@@ -143,21 +161,26 @@ Do some clean up work
 
 sendWithCallback:CelerGameStateOnLoaded
 -
+
 call this function when game level has finished loading
 
 sendWithCommand:CelerGameCommandHideInterface
 -
+
 hide CelerGameSDK UI
 
 sendWithCommand:CelerGameCommandShowInterface
 -
+
 show CelerGameSDK UI
 
 submitWithScore:int
 -
+
 submit Score
 
 ## Notes
+
 - To run this demo, run download script in the root directory
 - An universal framework that supports simulator and devices will be provided, it will run on a debug environment
 - A release framework only supports devices will be provided for appstore, it will run on release configuration
