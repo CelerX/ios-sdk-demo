@@ -39,7 +39,7 @@ It will download all the required dependencies for CelerGameSDK
 --
 
 - Necessary Assets
-[assets file](grphicAssetsIntegration.pdf)
+[see graphic assets guide](https://get.celer.app/celerx/docs/grphicAssetsIntegration.pdf)
 
 - Push Certificates
 
