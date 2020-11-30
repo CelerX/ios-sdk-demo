@@ -87,19 +87,12 @@ Try not to call this function at app's start or start of your first view, do thi
 ### CelerSdkDelegate
 
 ```objc
-- (void)matchSeedGenerated:(double)seed
-
 - (void)onMatchJoin:(nonnull id)gameObject
 
 - (void)onReady
 
 - (void)onResult
 ```
-
-matchSeedGenerated
-----
-
-This callback provides a double type seed in order to generate a random level fair to the players, seed will range from 0 ~ 1
 
 onMatchJoin:gameObject
 ----

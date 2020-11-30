@@ -34,51 +34,62 @@
 		24C4517018DFF10B0001FCFD /* M2ScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4516F18DFF10B0001FCFD /* M2ScoreView.m */; };
 		24C4517318E140AE0001FCFD /* M2SettingsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4517218E140AE0001FCFD /* M2SettingsDetailViewController.m */; };
 		24C4518118E265390001FCFD /* M2Overlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4518018E265390001FCFD /* M2Overlay.m */; };
-		F44BFF1E24D2E58100FB1280 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF0A24D2E58100FB1280 /* SnapKit.framework */; };
-		F44BFF1F24D2E58200FB1280 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF0A24D2E58100FB1280 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF2024D2E58200FB1280 /* SquareInAppPaymentsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF0B24D2E58100FB1280 /* SquareInAppPaymentsSDK.framework */; };
-		F44BFF2124D2E58200FB1280 /* SquareInAppPaymentsSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF0B24D2E58100FB1280 /* SquareInAppPaymentsSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF2224D2E58200FB1280 /* Nantes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF0C24D2E58100FB1280 /* Nantes.framework */; };
-		F44BFF2324D2E58200FB1280 /* Nantes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF0C24D2E58100FB1280 /* Nantes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF2424D2E58200FB1280 /* SwiftyUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF0D24D2E58100FB1280 /* SwiftyUserDefaults.framework */; };
-		F44BFF2524D2E58200FB1280 /* SwiftyUserDefaults.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF0D24D2E58100FB1280 /* SwiftyUserDefaults.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF2624D2E58200FB1280 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF0E24D2E58100FB1280 /* Lottie.framework */; };
-		F44BFF2724D2E58200FB1280 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF0E24D2E58100FB1280 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF2824D2E58200FB1280 /* Instabug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF0F24D2E58100FB1280 /* Instabug.framework */; };
-		F44BFF2924D2E58200FB1280 /* Instabug.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF0F24D2E58100FB1280 /* Instabug.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF2A24D2E58200FB1280 /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1024D2E58100FB1280 /* SwiftMessages.framework */; };
-		F44BFF2B24D2E58200FB1280 /* SwiftMessages.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1024D2E58100FB1280 /* SwiftMessages.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF2C24D2E58200FB1280 /* RNCryptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1124D2E58100FB1280 /* RNCryptor.framework */; };
-		F44BFF2D24D2E58200FB1280 /* RNCryptor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1124D2E58100FB1280 /* RNCryptor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF2E24D2E58200FB1280 /* HGCircularSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1224D2E58100FB1280 /* HGCircularSlider.framework */; };
-		F44BFF2F24D2E58200FB1280 /* HGCircularSlider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1224D2E58100FB1280 /* HGCircularSlider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF3024D2E58200FB1280 /* AMPopTip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1324D2E58100FB1280 /* AMPopTip.framework */; };
-		F44BFF3124D2E58200FB1280 /* AMPopTip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1324D2E58100FB1280 /* AMPopTip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF3224D2E58200FB1280 /* Celersdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1424D2E58100FB1280 /* Celersdk.framework */; };
-		F44BFF3424D2E58300FB1280 /* Mixpanel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1524D2E58100FB1280 /* Mixpanel.framework */; };
-		F44BFF3524D2E58300FB1280 /* Mixpanel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1524D2E58100FB1280 /* Mixpanel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF3624D2E58300FB1280 /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1624D2E58100FB1280 /* SwiftDate.framework */; };
-		F44BFF3724D2E58300FB1280 /* SwiftDate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1624D2E58100FB1280 /* SwiftDate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF3824D2E58300FB1280 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1724D2E58100FB1280 /* CocoaLumberjack.framework */; };
-		F44BFF3924D2E58300FB1280 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1724D2E58100FB1280 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF3A24D2E58300FB1280 /* PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1824D2E58100FB1280 /* PKHUD.framework */; };
-		F44BFF3B24D2E58300FB1280 /* PKHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1824D2E58100FB1280 /* PKHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF3C24D2E58300FB1280 /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1924D2E58100FB1280 /* KeychainSwift.framework */; };
-		F44BFF3D24D2E58300FB1280 /* KeychainSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1924D2E58100FB1280 /* KeychainSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF3E24D2E58300FB1280 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1A24D2E58100FB1280 /* CocoaLumberjackSwift.framework */; };
-		F44BFF3F24D2E58300FB1280 /* CocoaLumberjackSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1A24D2E58100FB1280 /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF4024D2E58300FB1280 /* CelerGameSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1B24D2E58100FB1280 /* CelerGameSdk.framework */; };
-		F44BFF4124D2E58400FB1280 /* CelerGameSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1B24D2E58100FB1280 /* CelerGameSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF4224D2E58400FB1280 /* AcceptSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1C24D2E58100FB1280 /* AcceptSDK.framework */; };
-		F44BFF4324D2E58400FB1280 /* AcceptSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1C24D2E58100FB1280 /* AcceptSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF4424D2E58400FB1280 /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1D24D2E58100FB1280 /* Stripe.framework */; };
-		F44BFF4524D2E58400FB1280 /* Stripe.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F44BFF1D24D2E58100FB1280 /* Stripe.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F44BFF4A24D2E8AA00FB1280 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F44BFF4924D2E8AA00FB1280 /* GoogleService-Info.plist */; };
+		F42E3BA02574CC860040C5E5 /* SquareInAppPaymentsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B852574CC850040C5E5 /* SquareInAppPaymentsSDK.framework */; };
+		F42E3BA12574CC860040C5E5 /* SquareInAppPaymentsSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B852574CC850040C5E5 /* SquareInAppPaymentsSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BA22574CC860040C5E5 /* web3swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B862574CC850040C5E5 /* web3swift.framework */; };
+		F42E3BA32574CC860040C5E5 /* web3swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B862574CC850040C5E5 /* web3swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BA42574CC860040C5E5 /* AMPopTip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B872574CC850040C5E5 /* AMPopTip.framework */; };
+		F42E3BA52574CC860040C5E5 /* AMPopTip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B872574CC850040C5E5 /* AMPopTip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BA62574CC860040C5E5 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B882574CC850040C5E5 /* CocoaLumberjack.framework */; };
+		F42E3BA72574CC860040C5E5 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B882574CC850040C5E5 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BA82574CC860040C5E5 /* CelerGameSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B892574CC850040C5E5 /* CelerGameSdk.framework */; };
+		F42E3BA92574CC860040C5E5 /* CelerGameSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B892574CC850040C5E5 /* CelerGameSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BAA2574CC860040C5E5 /* MatiGlobalIDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8A2574CC850040C5E5 /* MatiGlobalIDSDK.framework */; };
+		F42E3BAB2574CC860040C5E5 /* MatiGlobalIDSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8A2574CC850040C5E5 /* MatiGlobalIDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BAC2574CC860040C5E5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8B2574CC850040C5E5 /* FBSDKCoreKit.framework */; };
+		F42E3BAD2574CC860040C5E5 /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8B2574CC850040C5E5 /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BAE2574CC860040C5E5 /* secp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8C2574CC850040C5E5 /* secp256k1.framework */; };
+		F42E3BAF2574CC860040C5E5 /* secp256k1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8C2574CC850040C5E5 /* secp256k1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BB02574CC860040C5E5 /* AcceptSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8D2574CC850040C5E5 /* AcceptSDK.framework */; };
+		F42E3BB12574CC860040C5E5 /* AcceptSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8D2574CC850040C5E5 /* AcceptSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BB22574CC860040C5E5 /* PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8E2574CC850040C5E5 /* PKHUD.framework */; };
+		F42E3BB32574CC860040C5E5 /* PKHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8E2574CC850040C5E5 /* PKHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BB42574CC860040C5E5 /* SwiftyUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8F2574CC850040C5E5 /* SwiftyUserDefaults.framework */; };
+		F42E3BB52574CC870040C5E5 /* SwiftyUserDefaults.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8F2574CC850040C5E5 /* SwiftyUserDefaults.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BB62574CC870040C5E5 /* Nantes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B902574CC850040C5E5 /* Nantes.framework */; };
+		F42E3BB72574CC870040C5E5 /* Nantes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B902574CC850040C5E5 /* Nantes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BB82574CC870040C5E5 /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B912574CC850040C5E5 /* SwiftMessages.framework */; };
+		F42E3BB92574CC870040C5E5 /* SwiftMessages.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B912574CC850040C5E5 /* SwiftMessages.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BBA2574CC870040C5E5 /* Instabug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B922574CC850040C5E5 /* Instabug.framework */; };
+		F42E3BBB2574CC870040C5E5 /* Instabug.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B922574CC850040C5E5 /* Instabug.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BBC2574CC870040C5E5 /* Mixpanel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B932574CC850040C5E5 /* Mixpanel.framework */; };
+		F42E3BBD2574CC870040C5E5 /* Mixpanel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B932574CC850040C5E5 /* Mixpanel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BBE2574CC870040C5E5 /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B942574CC850040C5E5 /* KeychainSwift.framework */; };
+		F42E3BBF2574CC870040C5E5 /* KeychainSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B942574CC850040C5E5 /* KeychainSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BC02574CC870040C5E5 /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B952574CC850040C5E5 /* Stripe.framework */; };
+		F42E3BC12574CC870040C5E5 /* Stripe.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B952574CC850040C5E5 /* Stripe.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BC22574CC870040C5E5 /* BigInt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B962574CC850040C5E5 /* BigInt.framework */; };
+		F42E3BC32574CC870040C5E5 /* BigInt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B962574CC850040C5E5 /* BigInt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BC42574CC880040C5E5 /* RNCryptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B972574CC850040C5E5 /* RNCryptor.framework */; };
+		F42E3BC52574CC880040C5E5 /* RNCryptor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B972574CC850040C5E5 /* RNCryptor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BC62574CC880040C5E5 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B982574CC850040C5E5 /* SnapKit.framework */; };
+		F42E3BC72574CC880040C5E5 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B982574CC850040C5E5 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BC82574CC880040C5E5 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B992574CC850040C5E5 /* CocoaLumberjackSwift.framework */; };
+		F42E3BC92574CC880040C5E5 /* CocoaLumberjackSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B992574CC850040C5E5 /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BCA2574CC880040C5E5 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9A2574CC850040C5E5 /* CryptoSwift.framework */; };
+		F42E3BCB2574CC880040C5E5 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9A2574CC850040C5E5 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BCC2574CC880040C5E5 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9B2574CC860040C5E5 /* Starscream.framework */; };
+		F42E3BCD2574CC880040C5E5 /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9B2574CC860040C5E5 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BCE2574CC880040C5E5 /* Celersdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9C2574CC860040C5E5 /* Celersdk.framework */; };
+		F42E3BD02574CC890040C5E5 /* HGCircularSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9D2574CC860040C5E5 /* HGCircularSlider.framework */; };
+		F42E3BD12574CC890040C5E5 /* HGCircularSlider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9D2574CC860040C5E5 /* HGCircularSlider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BD22574CC890040C5E5 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9E2574CC860040C5E5 /* PromiseKit.framework */; };
+		F42E3BD32574CC890040C5E5 /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9E2574CC860040C5E5 /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BD42574CC890040C5E5 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9F2574CC860040C5E5 /* Lottie.framework */; };
+		F42E3BD52574CC890040C5E5 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9F2574CC860040C5E5 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F42E3BD92574CCFC0040C5E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F42E3BD82574CCFC0040C5E5 /* GoogleService-Info.plist */; };
 		F44BFF4C24D31AEE00FB1280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44BFF4B24D31AEC00FB1280 /* LaunchScreen.storyboard */; };
 		F4733F1F24D3235C00CD3C83 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F4733F1E24D3235C00CD3C83 /* README.md */; };
-		F49C0F3224D9441100862FDE /* GameAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F49C0F3124D9441000862FDE /* GameAssets.bundle */; };
-		F4B1697D24FCF57C0073EB77 /* MatiGlobalIDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B1697C24FCF57C0073EB77 /* MatiGlobalIDSDK.framework */; };
-		F4B1697E24FCF57C0073EB77 /* MatiGlobalIDSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4B1697C24FCF57C0073EB77 /* MatiGlobalIDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,26 +109,32 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F44BFF2124D2E58200FB1280 /* SquareInAppPaymentsSDK.framework in Embed Frameworks */,
-				F44BFF2724D2E58200FB1280 /* Lottie.framework in Embed Frameworks */,
-				F44BFF4524D2E58400FB1280 /* Stripe.framework in Embed Frameworks */,
-				F44BFF2F24D2E58200FB1280 /* HGCircularSlider.framework in Embed Frameworks */,
-				F44BFF3524D2E58300FB1280 /* Mixpanel.framework in Embed Frameworks */,
-				F44BFF2D24D2E58200FB1280 /* RNCryptor.framework in Embed Frameworks */,
-				F44BFF3B24D2E58300FB1280 /* PKHUD.framework in Embed Frameworks */,
-				F44BFF2524D2E58200FB1280 /* SwiftyUserDefaults.framework in Embed Frameworks */,
-				F44BFF2924D2E58200FB1280 /* Instabug.framework in Embed Frameworks */,
-				F44BFF2B24D2E58200FB1280 /* SwiftMessages.framework in Embed Frameworks */,
-				F44BFF1F24D2E58200FB1280 /* SnapKit.framework in Embed Frameworks */,
-				F44BFF3124D2E58200FB1280 /* AMPopTip.framework in Embed Frameworks */,
-				F4B1697E24FCF57C0073EB77 /* MatiGlobalIDSDK.framework in Embed Frameworks */,
-				F44BFF3F24D2E58300FB1280 /* CocoaLumberjackSwift.framework in Embed Frameworks */,
-				F44BFF4124D2E58400FB1280 /* CelerGameSdk.framework in Embed Frameworks */,
-				F44BFF3D24D2E58300FB1280 /* KeychainSwift.framework in Embed Frameworks */,
-				F44BFF3724D2E58300FB1280 /* SwiftDate.framework in Embed Frameworks */,
-				F44BFF3924D2E58300FB1280 /* CocoaLumberjack.framework in Embed Frameworks */,
-				F44BFF4324D2E58400FB1280 /* AcceptSDK.framework in Embed Frameworks */,
-				F44BFF2324D2E58200FB1280 /* Nantes.framework in Embed Frameworks */,
+				F42E3BAB2574CC860040C5E5 /* MatiGlobalIDSDK.framework in Embed Frameworks */,
+				F42E3BC32574CC870040C5E5 /* BigInt.framework in Embed Frameworks */,
+				F42E3BB32574CC860040C5E5 /* PKHUD.framework in Embed Frameworks */,
+				F42E3BD12574CC890040C5E5 /* HGCircularSlider.framework in Embed Frameworks */,
+				F42E3BB12574CC860040C5E5 /* AcceptSDK.framework in Embed Frameworks */,
+				F42E3BA52574CC860040C5E5 /* AMPopTip.framework in Embed Frameworks */,
+				F42E3BBD2574CC870040C5E5 /* Mixpanel.framework in Embed Frameworks */,
+				F42E3BC52574CC880040C5E5 /* RNCryptor.framework in Embed Frameworks */,
+				F42E3BD32574CC890040C5E5 /* PromiseKit.framework in Embed Frameworks */,
+				F42E3BA12574CC860040C5E5 /* SquareInAppPaymentsSDK.framework in Embed Frameworks */,
+				F42E3BC12574CC870040C5E5 /* Stripe.framework in Embed Frameworks */,
+				F42E3BB72574CC870040C5E5 /* Nantes.framework in Embed Frameworks */,
+				F42E3BAF2574CC860040C5E5 /* secp256k1.framework in Embed Frameworks */,
+				F42E3BD52574CC890040C5E5 /* Lottie.framework in Embed Frameworks */,
+				F42E3BC92574CC880040C5E5 /* CocoaLumberjackSwift.framework in Embed Frameworks */,
+				F42E3BA72574CC860040C5E5 /* CocoaLumberjack.framework in Embed Frameworks */,
+				F42E3BAD2574CC860040C5E5 /* FBSDKCoreKit.framework in Embed Frameworks */,
+				F42E3BB52574CC870040C5E5 /* SwiftyUserDefaults.framework in Embed Frameworks */,
+				F42E3BA92574CC860040C5E5 /* CelerGameSdk.framework in Embed Frameworks */,
+				F42E3BCD2574CC880040C5E5 /* Starscream.framework in Embed Frameworks */,
+				F42E3BBF2574CC870040C5E5 /* KeychainSwift.framework in Embed Frameworks */,
+				F42E3BCB2574CC880040C5E5 /* CryptoSwift.framework in Embed Frameworks */,
+				F42E3BA32574CC860040C5E5 /* web3swift.framework in Embed Frameworks */,
+				F42E3BB92574CC870040C5E5 /* SwiftMessages.framework in Embed Frameworks */,
+				F42E3BBB2574CC870040C5E5 /* Instabug.framework in Embed Frameworks */,
+				F42E3BC72574CC880040C5E5 /* SnapKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,31 +187,36 @@
 		24C4517218E140AE0001FCFD /* M2SettingsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2SettingsDetailViewController.m; sourceTree = "<group>"; };
 		24C4517F18E265390001FCFD /* M2Overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2Overlay.h; sourceTree = "<group>"; };
 		24C4518018E265390001FCFD /* M2Overlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2Overlay.m; sourceTree = "<group>"; };
-		F44BFF0A24D2E58100FB1280 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = depedencies/SnapKit.framework; sourceTree = "<group>"; };
-		F44BFF0B24D2E58100FB1280 /* SquareInAppPaymentsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SquareInAppPaymentsSDK.framework; path = depedencies/SquareInAppPaymentsSDK.framework; sourceTree = "<group>"; };
-		F44BFF0C24D2E58100FB1280 /* Nantes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nantes.framework; path = depedencies/Nantes.framework; sourceTree = "<group>"; };
-		F44BFF0D24D2E58100FB1280 /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyUserDefaults.framework; path = depedencies/SwiftyUserDefaults.framework; sourceTree = "<group>"; };
-		F44BFF0E24D2E58100FB1280 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = depedencies/Lottie.framework; sourceTree = "<group>"; };
-		F44BFF0F24D2E58100FB1280 /* Instabug.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Instabug.framework; path = depedencies/Instabug.framework; sourceTree = "<group>"; };
-		F44BFF1024D2E58100FB1280 /* SwiftMessages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMessages.framework; path = depedencies/SwiftMessages.framework; sourceTree = "<group>"; };
-		F44BFF1124D2E58100FB1280 /* RNCryptor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNCryptor.framework; path = depedencies/RNCryptor.framework; sourceTree = "<group>"; };
-		F44BFF1224D2E58100FB1280 /* HGCircularSlider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HGCircularSlider.framework; path = depedencies/HGCircularSlider.framework; sourceTree = "<group>"; };
-		F44BFF1324D2E58100FB1280 /* AMPopTip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMPopTip.framework; path = depedencies/AMPopTip.framework; sourceTree = "<group>"; };
-		F44BFF1424D2E58100FB1280 /* Celersdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Celersdk.framework; path = depedencies/Celersdk.framework; sourceTree = "<group>"; };
-		F44BFF1524D2E58100FB1280 /* Mixpanel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mixpanel.framework; path = depedencies/Mixpanel.framework; sourceTree = "<group>"; };
-		F44BFF1624D2E58100FB1280 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = depedencies/SwiftDate.framework; sourceTree = "<group>"; };
-		F44BFF1724D2E58100FB1280 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = depedencies/CocoaLumberjack.framework; sourceTree = "<group>"; };
-		F44BFF1824D2E58100FB1280 /* PKHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PKHUD.framework; path = depedencies/PKHUD.framework; sourceTree = "<group>"; };
-		F44BFF1924D2E58100FB1280 /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = depedencies/KeychainSwift.framework; sourceTree = "<group>"; };
-		F44BFF1A24D2E58100FB1280 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = depedencies/CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
-		F44BFF1B24D2E58100FB1280 /* CelerGameSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CelerGameSdk.framework; path = depedencies/CelerGameSdk.framework; sourceTree = "<group>"; };
-		F44BFF1C24D2E58100FB1280 /* AcceptSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AcceptSDK.framework; path = depedencies/AcceptSDK.framework; sourceTree = "<group>"; };
-		F44BFF1D24D2E58100FB1280 /* Stripe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stripe.framework; path = depedencies/Stripe.framework; sourceTree = "<group>"; };
-		F44BFF4924D2E8AA00FB1280 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F42E3B852574CC850040C5E5 /* SquareInAppPaymentsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SquareInAppPaymentsSDK.framework; path = depedencies/SquareInAppPaymentsSDK.framework; sourceTree = "<group>"; };
+		F42E3B862574CC850040C5E5 /* web3swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = web3swift.framework; path = depedencies/web3swift.framework; sourceTree = "<group>"; };
+		F42E3B872574CC850040C5E5 /* AMPopTip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMPopTip.framework; path = depedencies/AMPopTip.framework; sourceTree = "<group>"; };
+		F42E3B882574CC850040C5E5 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = depedencies/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		F42E3B892574CC850040C5E5 /* CelerGameSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CelerGameSdk.framework; path = depedencies/CelerGameSdk.framework; sourceTree = "<group>"; };
+		F42E3B8A2574CC850040C5E5 /* MatiGlobalIDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MatiGlobalIDSDK.framework; path = depedencies/MatiGlobalIDSDK.framework; sourceTree = "<group>"; };
+		F42E3B8B2574CC850040C5E5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = depedencies/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F42E3B8C2574CC850040C5E5 /* secp256k1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = secp256k1.framework; path = depedencies/secp256k1.framework; sourceTree = "<group>"; };
+		F42E3B8D2574CC850040C5E5 /* AcceptSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AcceptSDK.framework; path = depedencies/AcceptSDK.framework; sourceTree = "<group>"; };
+		F42E3B8E2574CC850040C5E5 /* PKHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PKHUD.framework; path = depedencies/PKHUD.framework; sourceTree = "<group>"; };
+		F42E3B8F2574CC850040C5E5 /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyUserDefaults.framework; path = depedencies/SwiftyUserDefaults.framework; sourceTree = "<group>"; };
+		F42E3B902574CC850040C5E5 /* Nantes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nantes.framework; path = depedencies/Nantes.framework; sourceTree = "<group>"; };
+		F42E3B912574CC850040C5E5 /* SwiftMessages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMessages.framework; path = depedencies/SwiftMessages.framework; sourceTree = "<group>"; };
+		F42E3B922574CC850040C5E5 /* Instabug.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Instabug.framework; path = depedencies/Instabug.framework; sourceTree = "<group>"; };
+		F42E3B932574CC850040C5E5 /* Mixpanel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mixpanel.framework; path = depedencies/Mixpanel.framework; sourceTree = "<group>"; };
+		F42E3B942574CC850040C5E5 /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = depedencies/KeychainSwift.framework; sourceTree = "<group>"; };
+		F42E3B952574CC850040C5E5 /* Stripe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stripe.framework; path = depedencies/Stripe.framework; sourceTree = "<group>"; };
+		F42E3B962574CC850040C5E5 /* BigInt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BigInt.framework; path = depedencies/BigInt.framework; sourceTree = "<group>"; };
+		F42E3B972574CC850040C5E5 /* RNCryptor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNCryptor.framework; path = depedencies/RNCryptor.framework; sourceTree = "<group>"; };
+		F42E3B982574CC850040C5E5 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = depedencies/SnapKit.framework; sourceTree = "<group>"; };
+		F42E3B992574CC850040C5E5 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = depedencies/CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
+		F42E3B9A2574CC850040C5E5 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = depedencies/CryptoSwift.framework; sourceTree = "<group>"; };
+		F42E3B9B2574CC860040C5E5 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = depedencies/Starscream.framework; sourceTree = "<group>"; };
+		F42E3B9C2574CC860040C5E5 /* Celersdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Celersdk.framework; path = depedencies/Celersdk.framework; sourceTree = "<group>"; };
+		F42E3B9D2574CC860040C5E5 /* HGCircularSlider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HGCircularSlider.framework; path = depedencies/HGCircularSlider.framework; sourceTree = "<group>"; };
+		F42E3B9E2574CC860040C5E5 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = depedencies/PromiseKit.framework; sourceTree = "<group>"; };
+		F42E3B9F2574CC860040C5E5 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = depedencies/Lottie.framework; sourceTree = "<group>"; };
+		F42E3BD82574CCFC0040C5E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F44BFF4B24D31AEC00FB1280 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4733F1E24D3235C00CD3C83 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F49C0F3124D9441000862FDE /* GameAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GameAssets.bundle; sourceTree = "<group>"; };
-		F4B1697C24FCF57C0073EB77 /* MatiGlobalIDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MatiGlobalIDSDK.framework; path = depedencies/MatiGlobalIDSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,31 +224,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F44BFF3C24D2E58300FB1280 /* KeychainSwift.framework in Frameworks */,
-				F44BFF4024D2E58300FB1280 /* CelerGameSdk.framework in Frameworks */,
-				F44BFF3224D2E58200FB1280 /* Celersdk.framework in Frameworks */,
+				F42E3BBE2574CC870040C5E5 /* KeychainSwift.framework in Frameworks */,
 				2443DC5818D662CA00C920C1 /* CoreGraphics.framework in Frameworks */,
 				2443DC5A18D662CA00C920C1 /* UIKit.framework in Frameworks */,
-				F44BFF2224D2E58200FB1280 /* Nantes.framework in Frameworks */,
-				F44BFF2824D2E58200FB1280 /* Instabug.framework in Frameworks */,
+				F42E3BAA2574CC860040C5E5 /* MatiGlobalIDSDK.framework in Frameworks */,
+				F42E3BB42574CC860040C5E5 /* SwiftyUserDefaults.framework in Frameworks */,
+				F42E3BAC2574CC860040C5E5 /* FBSDKCoreKit.framework in Frameworks */,
+				F42E3BB62574CC870040C5E5 /* Nantes.framework in Frameworks */,
+				F42E3BA62574CC860040C5E5 /* CocoaLumberjack.framework in Frameworks */,
+				F42E3BB82574CC870040C5E5 /* SwiftMessages.framework in Frameworks */,
 				2443DC5C18D662CA00C920C1 /* SpriteKit.framework in Frameworks */,
-				F44BFF4224D2E58400FB1280 /* AcceptSDK.framework in Frameworks */,
-				F44BFF3624D2E58300FB1280 /* SwiftDate.framework in Frameworks */,
-				F44BFF3A24D2E58300FB1280 /* PKHUD.framework in Frameworks */,
-				F44BFF4424D2E58400FB1280 /* Stripe.framework in Frameworks */,
+				F42E3BC42574CC880040C5E5 /* RNCryptor.framework in Frameworks */,
+				F42E3BD42574CC890040C5E5 /* Lottie.framework in Frameworks */,
+				F42E3BBA2574CC870040C5E5 /* Instabug.framework in Frameworks */,
+				F42E3BA82574CC860040C5E5 /* CelerGameSdk.framework in Frameworks */,
+				F42E3BAE2574CC860040C5E5 /* secp256k1.framework in Frameworks */,
+				F42E3BC22574CC870040C5E5 /* BigInt.framework in Frameworks */,
+				F42E3BC62574CC880040C5E5 /* SnapKit.framework in Frameworks */,
+				F42E3BA42574CC860040C5E5 /* AMPopTip.framework in Frameworks */,
+				F42E3BCA2574CC880040C5E5 /* CryptoSwift.framework in Frameworks */,
+				F42E3BA22574CC860040C5E5 /* web3swift.framework in Frameworks */,
+				F42E3BD02574CC890040C5E5 /* HGCircularSlider.framework in Frameworks */,
+				F42E3BBC2574CC870040C5E5 /* Mixpanel.framework in Frameworks */,
+				F42E3BC82574CC880040C5E5 /* CocoaLumberjackSwift.framework in Frameworks */,
 				2443DC5618D662CA00C920C1 /* Foundation.framework in Frameworks */,
-				F44BFF2A24D2E58200FB1280 /* SwiftMessages.framework in Frameworks */,
-				F44BFF3E24D2E58300FB1280 /* CocoaLumberjackSwift.framework in Frameworks */,
-				F44BFF2624D2E58200FB1280 /* Lottie.framework in Frameworks */,
-				F44BFF3824D2E58300FB1280 /* CocoaLumberjack.framework in Frameworks */,
-				F4B1697D24FCF57C0073EB77 /* MatiGlobalIDSDK.framework in Frameworks */,
-				F44BFF2424D2E58200FB1280 /* SwiftyUserDefaults.framework in Frameworks */,
-				F44BFF2E24D2E58200FB1280 /* HGCircularSlider.framework in Frameworks */,
-				F44BFF3024D2E58200FB1280 /* AMPopTip.framework in Frameworks */,
-				F44BFF3424D2E58300FB1280 /* Mixpanel.framework in Frameworks */,
-				F44BFF2024D2E58200FB1280 /* SquareInAppPaymentsSDK.framework in Frameworks */,
-				F44BFF2C24D2E58200FB1280 /* RNCryptor.framework in Frameworks */,
-				F44BFF1E24D2E58100FB1280 /* SnapKit.framework in Frameworks */,
+				F42E3BCC2574CC880040C5E5 /* Starscream.framework in Frameworks */,
+				F42E3BCE2574CC880040C5E5 /* Celersdk.framework in Frameworks */,
+				F42E3BC02574CC870040C5E5 /* Stripe.framework in Frameworks */,
+				F42E3BB02574CC860040C5E5 /* AcceptSDK.framework in Frameworks */,
+				F42E3BD22574CC890040C5E5 /* PromiseKit.framework in Frameworks */,
+				F42E3BA02574CC860040C5E5 /* SquareInAppPaymentsSDK.framework in Frameworks */,
+				F42E3BB22574CC860040C5E5 /* PKHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,9 +274,8 @@
 		2443DC4918D662CA00C920C1 = {
 			isa = PBXGroup;
 			children = (
-				F49C0F3124D9441000862FDE /* GameAssets.bundle */,
+				F42E3BD82574CCFC0040C5E5 /* GoogleService-Info.plist */,
 				F4733F1E24D3235C00CD3C83 /* README.md */,
-				F44BFF4924D2E8AA00FB1280 /* GoogleService-Info.plist */,
 				2443DC5D18D662CA00C920C1 /* m2048 */,
 				2443DC8118D662CA00C920C1 /* m2048Tests */,
 				2443DC5418D662CA00C920C1 /* Frameworks */,
@@ -268,27 +295,33 @@
 		2443DC5418D662CA00C920C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F4B1697C24FCF57C0073EB77 /* MatiGlobalIDSDK.framework */,
-				F44BFF1C24D2E58100FB1280 /* AcceptSDK.framework */,
-				F44BFF1324D2E58100FB1280 /* AMPopTip.framework */,
-				F44BFF1B24D2E58100FB1280 /* CelerGameSdk.framework */,
-				F44BFF1424D2E58100FB1280 /* Celersdk.framework */,
-				F44BFF1724D2E58100FB1280 /* CocoaLumberjack.framework */,
-				F44BFF1A24D2E58100FB1280 /* CocoaLumberjackSwift.framework */,
-				F44BFF1224D2E58100FB1280 /* HGCircularSlider.framework */,
-				F44BFF0F24D2E58100FB1280 /* Instabug.framework */,
-				F44BFF1924D2E58100FB1280 /* KeychainSwift.framework */,
-				F44BFF0E24D2E58100FB1280 /* Lottie.framework */,
-				F44BFF1524D2E58100FB1280 /* Mixpanel.framework */,
-				F44BFF0C24D2E58100FB1280 /* Nantes.framework */,
-				F44BFF1824D2E58100FB1280 /* PKHUD.framework */,
-				F44BFF1124D2E58100FB1280 /* RNCryptor.framework */,
-				F44BFF0A24D2E58100FB1280 /* SnapKit.framework */,
-				F44BFF0B24D2E58100FB1280 /* SquareInAppPaymentsSDK.framework */,
-				F44BFF1D24D2E58100FB1280 /* Stripe.framework */,
-				F44BFF1624D2E58100FB1280 /* SwiftDate.framework */,
-				F44BFF1024D2E58100FB1280 /* SwiftMessages.framework */,
-				F44BFF0D24D2E58100FB1280 /* SwiftyUserDefaults.framework */,
+				F42E3B8D2574CC850040C5E5 /* AcceptSDK.framework */,
+				F42E3B872574CC850040C5E5 /* AMPopTip.framework */,
+				F42E3B962574CC850040C5E5 /* BigInt.framework */,
+				F42E3B892574CC850040C5E5 /* CelerGameSdk.framework */,
+				F42E3B9C2574CC860040C5E5 /* Celersdk.framework */,
+				F42E3B882574CC850040C5E5 /* CocoaLumberjack.framework */,
+				F42E3B992574CC850040C5E5 /* CocoaLumberjackSwift.framework */,
+				F42E3B9A2574CC850040C5E5 /* CryptoSwift.framework */,
+				F42E3B8B2574CC850040C5E5 /* FBSDKCoreKit.framework */,
+				F42E3B9D2574CC860040C5E5 /* HGCircularSlider.framework */,
+				F42E3B922574CC850040C5E5 /* Instabug.framework */,
+				F42E3B942574CC850040C5E5 /* KeychainSwift.framework */,
+				F42E3B9F2574CC860040C5E5 /* Lottie.framework */,
+				F42E3B8A2574CC850040C5E5 /* MatiGlobalIDSDK.framework */,
+				F42E3B932574CC850040C5E5 /* Mixpanel.framework */,
+				F42E3B902574CC850040C5E5 /* Nantes.framework */,
+				F42E3B8E2574CC850040C5E5 /* PKHUD.framework */,
+				F42E3B9E2574CC860040C5E5 /* PromiseKit.framework */,
+				F42E3B972574CC850040C5E5 /* RNCryptor.framework */,
+				F42E3B8C2574CC850040C5E5 /* secp256k1.framework */,
+				F42E3B982574CC850040C5E5 /* SnapKit.framework */,
+				F42E3B852574CC850040C5E5 /* SquareInAppPaymentsSDK.framework */,
+				F42E3B9B2574CC860040C5E5 /* Starscream.framework */,
+				F42E3B952574CC850040C5E5 /* Stripe.framework */,
+				F42E3B912574CC850040C5E5 /* SwiftMessages.framework */,
+				F42E3B8F2574CC850040C5E5 /* SwiftyUserDefaults.framework */,
+				F42E3B862574CC850040C5E5 /* web3swift.framework */,
 				2443DC5518D662CA00C920C1 /* Foundation.framework */,
 				2443DC5718D662CA00C920C1 /* CoreGraphics.framework */,
 				2443DC5918D662CA00C920C1 /* UIKit.framework */,
@@ -497,13 +530,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F49C0F3224D9441100862FDE /* GameAssets.bundle in Resources */,
 				2443DC6218D662CA00C920C1 /* InfoPlist.strings in Resources */,
-				F44BFF4A24D2E8AA00FB1280 /* GoogleService-Info.plist in Resources */,
 				F4733F1F24D3235C00CD3C83 /* README.md in Resources */,
 				F44BFF4C24D31AEE00FB1280 /* LaunchScreen.storyboard in Resources */,
 				2443DC7518D662CA00C920C1 /* Images.xcassets in Resources */,
 				2443DC6B18D662CA00C920C1 /* Main.storyboard in Resources */,
+				F42E3BD92574CCFC0040C5E5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,7 +715,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "m2048/m2048-Prefix.pch";
 				INFOPLIST_FILE = "m2048/m2048-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 2.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.mygame;
@@ -707,7 +739,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "m2048/m2048-Prefix.pch";
 				INFOPLIST_FILE = "m2048/m2048-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 2.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.mygame;
