@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2443DC5618D662CA00C920C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443DC5518D662CA00C920C1 /* Foundation.framework */; };
 		2443DC5818D662CA00C920C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443DC5718D662CA00C920C1 /* CoreGraphics.framework */; };
 		2443DC5A18D662CA00C920C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443DC5918D662CA00C920C1 /* UIKit.framework */; };
 		2443DC5C18D662CA00C920C1 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443DC5B18D662CA00C920C1 /* SpriteKit.framework */; };
@@ -17,7 +16,6 @@
 		2443DC6B18D662CA00C920C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2443DC6918D662CA00C920C1 /* Main.storyboard */; };
 		2443DC7518D662CA00C920C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2443DC7418D662CA00C920C1 /* Images.xcassets */; };
 		2443DC7C18D662CA00C920C1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443DC7B18D662CA00C920C1 /* XCTest.framework */; };
-		2443DC7D18D662CA00C920C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443DC5518D662CA00C920C1 /* Foundation.framework */; };
 		2443DC7E18D662CA00C920C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443DC5918D662CA00C920C1 /* UIKit.framework */; };
 		2443DC8618D662CA00C920C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2443DC8418D662CA00C920C1 /* InfoPlist.strings */; };
 		2443DC8818D662CA00C920C1 /* m2048Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443DC8718D662CA00C920C1 /* m2048Tests.m */; };
@@ -34,72 +32,86 @@
 		24C4517018DFF10B0001FCFD /* M2ScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4516F18DFF10B0001FCFD /* M2ScoreView.m */; };
 		24C4517318E140AE0001FCFD /* M2SettingsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4517218E140AE0001FCFD /* M2SettingsDetailViewController.m */; };
 		24C4518118E265390001FCFD /* M2Overlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4518018E265390001FCFD /* M2Overlay.m */; };
-		F42E3BA02574CC860040C5E5 /* SquareInAppPaymentsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B852574CC850040C5E5 /* SquareInAppPaymentsSDK.framework */; };
-		F42E3BA12574CC860040C5E5 /* SquareInAppPaymentsSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B852574CC850040C5E5 /* SquareInAppPaymentsSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BA22574CC860040C5E5 /* web3swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B862574CC850040C5E5 /* web3swift.framework */; };
-		F42E3BA32574CC860040C5E5 /* web3swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B862574CC850040C5E5 /* web3swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BA42574CC860040C5E5 /* AMPopTip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B872574CC850040C5E5 /* AMPopTip.framework */; };
-		F42E3BA52574CC860040C5E5 /* AMPopTip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B872574CC850040C5E5 /* AMPopTip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BA62574CC860040C5E5 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B882574CC850040C5E5 /* CocoaLumberjack.framework */; };
-		F42E3BA72574CC860040C5E5 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B882574CC850040C5E5 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BA82574CC860040C5E5 /* CelerGameSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B892574CC850040C5E5 /* CelerGameSdk.framework */; };
-		F42E3BA92574CC860040C5E5 /* CelerGameSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B892574CC850040C5E5 /* CelerGameSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BAA2574CC860040C5E5 /* MatiGlobalIDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8A2574CC850040C5E5 /* MatiGlobalIDSDK.framework */; };
-		F42E3BAB2574CC860040C5E5 /* MatiGlobalIDSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8A2574CC850040C5E5 /* MatiGlobalIDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BAC2574CC860040C5E5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8B2574CC850040C5E5 /* FBSDKCoreKit.framework */; };
-		F42E3BAD2574CC860040C5E5 /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8B2574CC850040C5E5 /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BAE2574CC860040C5E5 /* secp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8C2574CC850040C5E5 /* secp256k1.framework */; };
-		F42E3BAF2574CC860040C5E5 /* secp256k1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8C2574CC850040C5E5 /* secp256k1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BB02574CC860040C5E5 /* AcceptSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8D2574CC850040C5E5 /* AcceptSDK.framework */; };
-		F42E3BB12574CC860040C5E5 /* AcceptSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8D2574CC850040C5E5 /* AcceptSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BB22574CC860040C5E5 /* PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8E2574CC850040C5E5 /* PKHUD.framework */; };
-		F42E3BB32574CC860040C5E5 /* PKHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8E2574CC850040C5E5 /* PKHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BB42574CC860040C5E5 /* SwiftyUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8F2574CC850040C5E5 /* SwiftyUserDefaults.framework */; };
-		F42E3BB52574CC870040C5E5 /* SwiftyUserDefaults.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B8F2574CC850040C5E5 /* SwiftyUserDefaults.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BB62574CC870040C5E5 /* Nantes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B902574CC850040C5E5 /* Nantes.framework */; };
-		F42E3BB72574CC870040C5E5 /* Nantes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B902574CC850040C5E5 /* Nantes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BB82574CC870040C5E5 /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B912574CC850040C5E5 /* SwiftMessages.framework */; };
-		F42E3BB92574CC870040C5E5 /* SwiftMessages.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B912574CC850040C5E5 /* SwiftMessages.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BBA2574CC870040C5E5 /* Instabug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B922574CC850040C5E5 /* Instabug.framework */; };
-		F42E3BBB2574CC870040C5E5 /* Instabug.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B922574CC850040C5E5 /* Instabug.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BBC2574CC870040C5E5 /* Mixpanel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B932574CC850040C5E5 /* Mixpanel.framework */; };
-		F42E3BBD2574CC870040C5E5 /* Mixpanel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B932574CC850040C5E5 /* Mixpanel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BBE2574CC870040C5E5 /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B942574CC850040C5E5 /* KeychainSwift.framework */; };
-		F42E3BBF2574CC870040C5E5 /* KeychainSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B942574CC850040C5E5 /* KeychainSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BC02574CC870040C5E5 /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B952574CC850040C5E5 /* Stripe.framework */; };
-		F42E3BC12574CC870040C5E5 /* Stripe.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B952574CC850040C5E5 /* Stripe.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BC22574CC870040C5E5 /* BigInt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B962574CC850040C5E5 /* BigInt.framework */; };
-		F42E3BC32574CC870040C5E5 /* BigInt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B962574CC850040C5E5 /* BigInt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BC42574CC880040C5E5 /* RNCryptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B972574CC850040C5E5 /* RNCryptor.framework */; };
-		F42E3BC52574CC880040C5E5 /* RNCryptor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B972574CC850040C5E5 /* RNCryptor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BC62574CC880040C5E5 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B982574CC850040C5E5 /* SnapKit.framework */; };
-		F42E3BC72574CC880040C5E5 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B982574CC850040C5E5 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BC82574CC880040C5E5 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B992574CC850040C5E5 /* CocoaLumberjackSwift.framework */; };
-		F42E3BC92574CC880040C5E5 /* CocoaLumberjackSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B992574CC850040C5E5 /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BCA2574CC880040C5E5 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9A2574CC850040C5E5 /* CryptoSwift.framework */; };
-		F42E3BCB2574CC880040C5E5 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9A2574CC850040C5E5 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BCC2574CC880040C5E5 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9B2574CC860040C5E5 /* Starscream.framework */; };
-		F42E3BCD2574CC880040C5E5 /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9B2574CC860040C5E5 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BCE2574CC880040C5E5 /* Celersdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9C2574CC860040C5E5 /* Celersdk.framework */; };
-		F42E3BD02574CC890040C5E5 /* HGCircularSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9D2574CC860040C5E5 /* HGCircularSlider.framework */; };
-		F42E3BD12574CC890040C5E5 /* HGCircularSlider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9D2574CC860040C5E5 /* HGCircularSlider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BD22574CC890040C5E5 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9E2574CC860040C5E5 /* PromiseKit.framework */; };
-		F42E3BD32574CC890040C5E5 /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9E2574CC860040C5E5 /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BD42574CC890040C5E5 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9F2574CC860040C5E5 /* Lottie.framework */; };
-		F42E3BD52574CC890040C5E5 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F42E3B9F2574CC860040C5E5 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F42E3BD92574CCFC0040C5E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F42E3BD82574CCFC0040C5E5 /* GoogleService-Info.plist */; };
-		F42E3BF42575E7E60040C5E5 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F42E3BEA2575E7E60040C5E5 /* OpenSans-SemiBold.ttf */; };
-		F42E3BF52575E7E60040C5E5 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F42E3BEB2575E7E60040C5E5 /* OpenSans-Light.ttf */; };
-		F42E3BF62575E7E60040C5E5 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F42E3BEC2575E7E60040C5E5 /* OpenSans-Italic.ttf */; };
-		F42E3BF72575E7E60040C5E5 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F42E3BED2575E7E60040C5E5 /* OpenSans-ExtraBold.ttf */; };
-		F42E3BF82575E7E60040C5E5 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F42E3BEE2575E7E60040C5E5 /* OpenSans-LightItalic.ttf */; };
-		F42E3BF92575E7E60040C5E5 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F42E3BEF2575E7E60040C5E5 /* OpenSans-Bold.ttf */; };
-		F42E3BFA2575E7E60040C5E5 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F42E3BF02575E7E60040C5E5 /* OpenSans-SemiBoldItalic.ttf */; };
-		F42E3BFB2575E7E60040C5E5 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F42E3BF12575E7E60040C5E5 /* OpenSans-ExtraBoldItalic.ttf */; };
-		F42E3BFC2575E7E60040C5E5 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F42E3BF22575E7E60040C5E5 /* OpenSans-Regular.ttf */; };
-		F42E3BFD2575E7E60040C5E5 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F42E3BF32575E7E60040C5E5 /* OpenSans-BoldItalic.ttf */; };
+		F44BFF4A24D2E8AA00FB1280 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F44BFF4924D2E8AA00FB1280 /* GoogleService-Info.plist */; };
 		F44BFF4C24D31AEE00FB1280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44BFF4B24D31AEC00FB1280 /* LaunchScreen.storyboard */; };
 		F4733F1F24D3235C00CD3C83 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F4733F1E24D3235C00CD3C83 /* README.md */; };
+		F49A54E1258328C60034AF4F /* AMPopTip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54BE258328C50034AF4F /* AMPopTip.framework */; };
+		F49A54E2258328C60034AF4F /* AMPopTip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54BE258328C50034AF4F /* AMPopTip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A54E3258328C60034AF4F /* CelerGameSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54BF258328C50034AF4F /* CelerGameSdk.framework */; };
+		F49A54E4258328C60034AF4F /* CelerGameSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54BF258328C50034AF4F /* CelerGameSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A54E5258328C60034AF4F /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54C0258328C50034AF4F /* FBSDKCoreKit.framework */; };
+		F49A54E6258328C60034AF4F /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54C0258328C50034AF4F /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A54E7258328C60034AF4F /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54C1258328C50034AF4F /* RxRelay.framework */; };
+		F49A54E8258328C60034AF4F /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54C1258328C50034AF4F /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A54E9258328C60034AF4F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54C2258328C50034AF4F /* RxSwift.framework */; };
+		F49A54EA258328C60034AF4F /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54C2258328C50034AF4F /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A54EB258328C60034AF4F /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54C3258328C50034AF4F /* Starscream.framework */; };
+		F49A54EC258328C60034AF4F /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54C3258328C50034AF4F /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A54ED258328C60034AF4F /* BigInt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54C4258328C50034AF4F /* BigInt.framework */; };
+		F49A54EE258328C60034AF4F /* BigInt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54C4258328C50034AF4F /* BigInt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A54EF258328C60034AF4F /* Celersdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54C5258328C50034AF4F /* Celersdk.framework */; };
+		F49A54F1258328C60034AF4F /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54C6258328C50034AF4F /* CryptoSwift.framework */; };
+		F49A54F2258328C60034AF4F /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54C6258328C50034AF4F /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A54F3258328C60034AF4F /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54C7258328C50034AF4F /* KeychainSwift.framework */; };
+		F49A54F4258328C60034AF4F /* KeychainSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54C7258328C50034AF4F /* KeychainSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A54F5258328C60034AF4F /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54C8258328C50034AF4F /* Stripe.framework */; };
+		F49A54F6258328C60034AF4F /* Stripe.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54C8258328C50034AF4F /* Stripe.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A54F9258328C60034AF4F /* Nantes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54CA258328C50034AF4F /* Nantes.framework */; };
+		F49A54FA258328C60034AF4F /* Nantes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54CA258328C50034AF4F /* Nantes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A54FB258328C60034AF4F /* Instabug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54CB258328C50034AF4F /* Instabug.framework */; };
+		F49A54FC258328C70034AF4F /* Instabug.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54CB258328C50034AF4F /* Instabug.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A54FD258328C70034AF4F /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54CC258328C50034AF4F /* CocoaLumberjackSwift.framework */; };
+		F49A54FE258328C70034AF4F /* CocoaLumberjackSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54CC258328C50034AF4F /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A54FF258328C70034AF4F /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54CD258328C50034AF4F /* SwiftMessages.framework */; };
+		F49A5500258328C70034AF4F /* SwiftMessages.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54CD258328C50034AF4F /* SwiftMessages.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A5501258328C70034AF4F /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54CE258328C50034AF4F /* CocoaLumberjack.framework */; };
+		F49A5502258328C70034AF4F /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54CE258328C50034AF4F /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A5503258328C70034AF4F /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54CF258328C50034AF4F /* Lottie.framework */; };
+		F49A5504258328C70034AF4F /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54CF258328C50034AF4F /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A5505258328C70034AF4F /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D0258328C50034AF4F /* RxBlocking.framework */; };
+		F49A5506258328C70034AF4F /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D0258328C50034AF4F /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A5507258328C70034AF4F /* SquareInAppPaymentsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D1258328C50034AF4F /* SquareInAppPaymentsSDK.framework */; };
+		F49A5508258328C70034AF4F /* SquareInAppPaymentsSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D1258328C50034AF4F /* SquareInAppPaymentsSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A5509258328C70034AF4F /* SipHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D2258328C50034AF4F /* SipHash.framework */; };
+		F49A550A258328C70034AF4F /* SipHash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D2258328C50034AF4F /* SipHash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A550B258328C70034AF4F /* SwiftyUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D3258328C50034AF4F /* SwiftyUserDefaults.framework */; };
+		F49A550C258328C70034AF4F /* SwiftyUserDefaults.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D3258328C50034AF4F /* SwiftyUserDefaults.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A550D258328C70034AF4F /* RNCryptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D4258328C50034AF4F /* RNCryptor.framework */; };
+		F49A550E258328C70034AF4F /* RNCryptor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D4258328C50034AF4F /* RNCryptor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A550F258328C70034AF4F /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D5258328C50034AF4F /* RxCocoa.framework */; };
+		F49A5510258328C80034AF4F /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D5258328C50034AF4F /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A5511258328C80034AF4F /* Mixpanel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D6258328C60034AF4F /* Mixpanel.framework */; };
+		F49A5512258328C80034AF4F /* Mixpanel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D6258328C60034AF4F /* Mixpanel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A5513258328C80034AF4F /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D7258328C60034AF4F /* PromiseKit.framework */; };
+		F49A5514258328C80034AF4F /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D7258328C60034AF4F /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A5515258328C80034AF4F /* RxRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D8258328C60034AF4F /* RxRealm.framework */; };
+		F49A5516258328C80034AF4F /* RxRealm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D8258328C60034AF4F /* RxRealm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A5517258328C80034AF4F /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D9258328C60034AF4F /* RxTest.framework */; };
+		F49A5518258328C80034AF4F /* RxTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54D9258328C60034AF4F /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A5519258328C80034AF4F /* PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54DA258328C60034AF4F /* PKHUD.framework */; };
+		F49A551A258328C80034AF4F /* PKHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54DA258328C60034AF4F /* PKHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A551B258328C80034AF4F /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54DB258328C60034AF4F /* RealmSwift.framework */; };
+		F49A551C258328C80034AF4F /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54DB258328C60034AF4F /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A551D258328C80034AF4F /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54DC258328C60034AF4F /* Realm.framework */; };
+		F49A551E258328C80034AF4F /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54DC258328C60034AF4F /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A551F258328C80034AF4F /* secp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54DD258328C60034AF4F /* secp256k1.framework */; };
+		F49A5520258328C90034AF4F /* secp256k1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54DD258328C60034AF4F /* secp256k1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A5521258328C90034AF4F /* HGCircularSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54DE258328C60034AF4F /* HGCircularSlider.framework */; };
+		F49A5522258328C90034AF4F /* HGCircularSlider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54DE258328C60034AF4F /* HGCircularSlider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A5523258328C90034AF4F /* MatiGlobalIDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54DF258328C60034AF4F /* MatiGlobalIDSDK.framework */; };
+		F49A5524258328C90034AF4F /* MatiGlobalIDSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54DF258328C60034AF4F /* MatiGlobalIDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F49A5525258328C90034AF4F /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54E0258328C60034AF4F /* SnapKit.framework */; };
+		F49A5526258328C90034AF4F /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F49A54E0258328C60034AF4F /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4FA72E02519FE3D00127922 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4FA72D62519FE3D00127922 /* OpenSans-SemiBold.ttf */; };
+		F4FA72E12519FE3D00127922 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4FA72D72519FE3D00127922 /* OpenSans-Light.ttf */; };
+		F4FA72E22519FE3D00127922 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4FA72D82519FE3D00127922 /* OpenSans-Italic.ttf */; };
+		F4FA72E32519FE3D00127922 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4FA72D92519FE3D00127922 /* OpenSans-ExtraBold.ttf */; };
+		F4FA72E42519FE3D00127922 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4FA72DA2519FE3D00127922 /* OpenSans-LightItalic.ttf */; };
+		F4FA72E52519FE3D00127922 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4FA72DB2519FE3D00127922 /* OpenSans-Bold.ttf */; };
+		F4FA72E62519FE3D00127922 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4FA72DC2519FE3D00127922 /* OpenSans-SemiBoldItalic.ttf */; };
+		F4FA72E72519FE3D00127922 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4FA72DD2519FE3D00127922 /* OpenSans-ExtraBoldItalic.ttf */; };
+		F4FA72E82519FE3D00127922 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4FA72DE2519FE3D00127922 /* OpenSans-Regular.ttf */; };
+		F4FA72E92519FE3D00127922 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4FA72DF2519FE3D00127922 /* OpenSans-BoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,32 +131,39 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F42E3BAB2574CC860040C5E5 /* MatiGlobalIDSDK.framework in Embed Frameworks */,
-				F42E3BC32574CC870040C5E5 /* BigInt.framework in Embed Frameworks */,
-				F42E3BB32574CC860040C5E5 /* PKHUD.framework in Embed Frameworks */,
-				F42E3BD12574CC890040C5E5 /* HGCircularSlider.framework in Embed Frameworks */,
-				F42E3BB12574CC860040C5E5 /* AcceptSDK.framework in Embed Frameworks */,
-				F42E3BA52574CC860040C5E5 /* AMPopTip.framework in Embed Frameworks */,
-				F42E3BBD2574CC870040C5E5 /* Mixpanel.framework in Embed Frameworks */,
-				F42E3BC52574CC880040C5E5 /* RNCryptor.framework in Embed Frameworks */,
-				F42E3BD32574CC890040C5E5 /* PromiseKit.framework in Embed Frameworks */,
-				F42E3BA12574CC860040C5E5 /* SquareInAppPaymentsSDK.framework in Embed Frameworks */,
-				F42E3BC12574CC870040C5E5 /* Stripe.framework in Embed Frameworks */,
-				F42E3BB72574CC870040C5E5 /* Nantes.framework in Embed Frameworks */,
-				F42E3BAF2574CC860040C5E5 /* secp256k1.framework in Embed Frameworks */,
-				F42E3BD52574CC890040C5E5 /* Lottie.framework in Embed Frameworks */,
-				F42E3BC92574CC880040C5E5 /* CocoaLumberjackSwift.framework in Embed Frameworks */,
-				F42E3BA72574CC860040C5E5 /* CocoaLumberjack.framework in Embed Frameworks */,
-				F42E3BAD2574CC860040C5E5 /* FBSDKCoreKit.framework in Embed Frameworks */,
-				F42E3BB52574CC870040C5E5 /* SwiftyUserDefaults.framework in Embed Frameworks */,
-				F42E3BA92574CC860040C5E5 /* CelerGameSdk.framework in Embed Frameworks */,
-				F42E3BCD2574CC880040C5E5 /* Starscream.framework in Embed Frameworks */,
-				F42E3BBF2574CC870040C5E5 /* KeychainSwift.framework in Embed Frameworks */,
-				F42E3BCB2574CC880040C5E5 /* CryptoSwift.framework in Embed Frameworks */,
-				F42E3BA32574CC860040C5E5 /* web3swift.framework in Embed Frameworks */,
-				F42E3BB92574CC870040C5E5 /* SwiftMessages.framework in Embed Frameworks */,
-				F42E3BBB2574CC870040C5E5 /* Instabug.framework in Embed Frameworks */,
-				F42E3BC72574CC880040C5E5 /* SnapKit.framework in Embed Frameworks */,
+				F49A54F4258328C60034AF4F /* KeychainSwift.framework in Embed Frameworks */,
+				F49A54EA258328C60034AF4F /* RxSwift.framework in Embed Frameworks */,
+				F49A54EC258328C60034AF4F /* Starscream.framework in Embed Frameworks */,
+				F49A54E8258328C60034AF4F /* RxRelay.framework in Embed Frameworks */,
+				F49A5524258328C90034AF4F /* MatiGlobalIDSDK.framework in Embed Frameworks */,
+				F49A5508258328C70034AF4F /* SquareInAppPaymentsSDK.framework in Embed Frameworks */,
+				F49A54F2258328C60034AF4F /* CryptoSwift.framework in Embed Frameworks */,
+				F49A5504258328C70034AF4F /* Lottie.framework in Embed Frameworks */,
+				F49A54EE258328C60034AF4F /* BigInt.framework in Embed Frameworks */,
+				F49A5514258328C80034AF4F /* PromiseKit.framework in Embed Frameworks */,
+				F49A5512258328C80034AF4F /* Mixpanel.framework in Embed Frameworks */,
+				F49A54E2258328C60034AF4F /* AMPopTip.framework in Embed Frameworks */,
+				F49A550E258328C70034AF4F /* RNCryptor.framework in Embed Frameworks */,
+				F49A5500258328C70034AF4F /* SwiftMessages.framework in Embed Frameworks */,
+				F49A5522258328C90034AF4F /* HGCircularSlider.framework in Embed Frameworks */,
+				F49A5518258328C80034AF4F /* RxTest.framework in Embed Frameworks */,
+				F49A5510258328C80034AF4F /* RxCocoa.framework in Embed Frameworks */,
+				F49A551E258328C80034AF4F /* Realm.framework in Embed Frameworks */,
+				F49A550A258328C70034AF4F /* SipHash.framework in Embed Frameworks */,
+				F49A54E6258328C60034AF4F /* FBSDKCoreKit.framework in Embed Frameworks */,
+				F49A5520258328C90034AF4F /* secp256k1.framework in Embed Frameworks */,
+				F49A54F6258328C60034AF4F /* Stripe.framework in Embed Frameworks */,
+				F49A5526258328C90034AF4F /* SnapKit.framework in Embed Frameworks */,
+				F49A54FA258328C60034AF4F /* Nantes.framework in Embed Frameworks */,
+				F49A5506258328C70034AF4F /* RxBlocking.framework in Embed Frameworks */,
+				F49A54E4258328C60034AF4F /* CelerGameSdk.framework in Embed Frameworks */,
+				F49A551A258328C80034AF4F /* PKHUD.framework in Embed Frameworks */,
+				F49A54FC258328C70034AF4F /* Instabug.framework in Embed Frameworks */,
+				F49A550C258328C70034AF4F /* SwiftyUserDefaults.framework in Embed Frameworks */,
+				F49A551C258328C80034AF4F /* RealmSwift.framework in Embed Frameworks */,
+				F49A5502258328C70034AF4F /* CocoaLumberjack.framework in Embed Frameworks */,
+				F49A5516258328C80034AF4F /* RxRealm.framework in Embed Frameworks */,
+				F49A54FE258328C70034AF4F /* CocoaLumberjackSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,7 +172,6 @@
 
 /* Begin PBXFileReference section */
 		2443DC5218D662CA00C920C1 /* m2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = m2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2443DC5518D662CA00C920C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2443DC5718D662CA00C920C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2443DC5918D662CA00C920C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2443DC5B18D662CA00C920C1 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
@@ -197,46 +215,54 @@
 		24C4517218E140AE0001FCFD /* M2SettingsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2SettingsDetailViewController.m; sourceTree = "<group>"; };
 		24C4517F18E265390001FCFD /* M2Overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2Overlay.h; sourceTree = "<group>"; };
 		24C4518018E265390001FCFD /* M2Overlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2Overlay.m; sourceTree = "<group>"; };
-		F42E3B852574CC850040C5E5 /* SquareInAppPaymentsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SquareInAppPaymentsSDK.framework; path = depedencies/SquareInAppPaymentsSDK.framework; sourceTree = "<group>"; };
-		F42E3B862574CC850040C5E5 /* web3swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = web3swift.framework; path = depedencies/web3swift.framework; sourceTree = "<group>"; };
-		F42E3B872574CC850040C5E5 /* AMPopTip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMPopTip.framework; path = depedencies/AMPopTip.framework; sourceTree = "<group>"; };
-		F42E3B882574CC850040C5E5 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = depedencies/CocoaLumberjack.framework; sourceTree = "<group>"; };
-		F42E3B892574CC850040C5E5 /* CelerGameSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CelerGameSdk.framework; path = depedencies/CelerGameSdk.framework; sourceTree = "<group>"; };
-		F42E3B8A2574CC850040C5E5 /* MatiGlobalIDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MatiGlobalIDSDK.framework; path = depedencies/MatiGlobalIDSDK.framework; sourceTree = "<group>"; };
-		F42E3B8B2574CC850040C5E5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = depedencies/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		F42E3B8C2574CC850040C5E5 /* secp256k1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = secp256k1.framework; path = depedencies/secp256k1.framework; sourceTree = "<group>"; };
-		F42E3B8D2574CC850040C5E5 /* AcceptSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AcceptSDK.framework; path = depedencies/AcceptSDK.framework; sourceTree = "<group>"; };
-		F42E3B8E2574CC850040C5E5 /* PKHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PKHUD.framework; path = depedencies/PKHUD.framework; sourceTree = "<group>"; };
-		F42E3B8F2574CC850040C5E5 /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyUserDefaults.framework; path = depedencies/SwiftyUserDefaults.framework; sourceTree = "<group>"; };
-		F42E3B902574CC850040C5E5 /* Nantes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nantes.framework; path = depedencies/Nantes.framework; sourceTree = "<group>"; };
-		F42E3B912574CC850040C5E5 /* SwiftMessages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMessages.framework; path = depedencies/SwiftMessages.framework; sourceTree = "<group>"; };
-		F42E3B922574CC850040C5E5 /* Instabug.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Instabug.framework; path = depedencies/Instabug.framework; sourceTree = "<group>"; };
-		F42E3B932574CC850040C5E5 /* Mixpanel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mixpanel.framework; path = depedencies/Mixpanel.framework; sourceTree = "<group>"; };
-		F42E3B942574CC850040C5E5 /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = depedencies/KeychainSwift.framework; sourceTree = "<group>"; };
-		F42E3B952574CC850040C5E5 /* Stripe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stripe.framework; path = depedencies/Stripe.framework; sourceTree = "<group>"; };
-		F42E3B962574CC850040C5E5 /* BigInt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BigInt.framework; path = depedencies/BigInt.framework; sourceTree = "<group>"; };
-		F42E3B972574CC850040C5E5 /* RNCryptor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNCryptor.framework; path = depedencies/RNCryptor.framework; sourceTree = "<group>"; };
-		F42E3B982574CC850040C5E5 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = depedencies/SnapKit.framework; sourceTree = "<group>"; };
-		F42E3B992574CC850040C5E5 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = depedencies/CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
-		F42E3B9A2574CC850040C5E5 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = depedencies/CryptoSwift.framework; sourceTree = "<group>"; };
-		F42E3B9B2574CC860040C5E5 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = depedencies/Starscream.framework; sourceTree = "<group>"; };
-		F42E3B9C2574CC860040C5E5 /* Celersdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Celersdk.framework; path = depedencies/Celersdk.framework; sourceTree = "<group>"; };
-		F42E3B9D2574CC860040C5E5 /* HGCircularSlider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HGCircularSlider.framework; path = depedencies/HGCircularSlider.framework; sourceTree = "<group>"; };
-		F42E3B9E2574CC860040C5E5 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = depedencies/PromiseKit.framework; sourceTree = "<group>"; };
-		F42E3B9F2574CC860040C5E5 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = depedencies/Lottie.framework; sourceTree = "<group>"; };
-		F42E3BD82574CCFC0040C5E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		F42E3BEA2575E7E60040C5E5 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
-		F42E3BEB2575E7E60040C5E5 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
-		F42E3BEC2575E7E60040C5E5 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
-		F42E3BED2575E7E60040C5E5 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
-		F42E3BEE2575E7E60040C5E5 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
-		F42E3BEF2575E7E60040C5E5 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
-		F42E3BF02575E7E60040C5E5 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		F42E3BF12575E7E60040C5E5 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		F42E3BF22575E7E60040C5E5 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
-		F42E3BF32575E7E60040C5E5 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F442D6FC2583348300A7A29A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F44BFF4924D2E8AA00FB1280 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F44BFF4B24D31AEC00FB1280 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4733F1E24D3235C00CD3C83 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F49A54BE258328C50034AF4F /* AMPopTip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMPopTip.framework; path = depedencies/AMPopTip.framework; sourceTree = "<group>"; };
+		F49A54BF258328C50034AF4F /* CelerGameSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CelerGameSdk.framework; path = depedencies/CelerGameSdk.framework; sourceTree = "<group>"; };
+		F49A54C0258328C50034AF4F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = depedencies/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F49A54C1258328C50034AF4F /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = depedencies/RxRelay.framework; sourceTree = "<group>"; };
+		F49A54C2258328C50034AF4F /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = depedencies/RxSwift.framework; sourceTree = "<group>"; };
+		F49A54C3258328C50034AF4F /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = depedencies/Starscream.framework; sourceTree = "<group>"; };
+		F49A54C4258328C50034AF4F /* BigInt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BigInt.framework; path = depedencies/BigInt.framework; sourceTree = "<group>"; };
+		F49A54C5258328C50034AF4F /* Celersdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Celersdk.framework; path = depedencies/Celersdk.framework; sourceTree = "<group>"; };
+		F49A54C6258328C50034AF4F /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = depedencies/CryptoSwift.framework; sourceTree = "<group>"; };
+		F49A54C7258328C50034AF4F /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = depedencies/KeychainSwift.framework; sourceTree = "<group>"; };
+		F49A54C8258328C50034AF4F /* Stripe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stripe.framework; path = depedencies/Stripe.framework; sourceTree = "<group>"; };
+		F49A54CA258328C50034AF4F /* Nantes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nantes.framework; path = depedencies/Nantes.framework; sourceTree = "<group>"; };
+		F49A54CB258328C50034AF4F /* Instabug.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Instabug.framework; path = depedencies/Instabug.framework; sourceTree = "<group>"; };
+		F49A54CC258328C50034AF4F /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = depedencies/CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
+		F49A54CD258328C50034AF4F /* SwiftMessages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMessages.framework; path = depedencies/SwiftMessages.framework; sourceTree = "<group>"; };
+		F49A54CE258328C50034AF4F /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = depedencies/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		F49A54CF258328C50034AF4F /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = depedencies/Lottie.framework; sourceTree = "<group>"; };
+		F49A54D0258328C50034AF4F /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = depedencies/RxBlocking.framework; sourceTree = "<group>"; };
+		F49A54D1258328C50034AF4F /* SquareInAppPaymentsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SquareInAppPaymentsSDK.framework; path = depedencies/SquareInAppPaymentsSDK.framework; sourceTree = "<group>"; };
+		F49A54D2258328C50034AF4F /* SipHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SipHash.framework; path = depedencies/SipHash.framework; sourceTree = "<group>"; };
+		F49A54D3258328C50034AF4F /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyUserDefaults.framework; path = depedencies/SwiftyUserDefaults.framework; sourceTree = "<group>"; };
+		F49A54D4258328C50034AF4F /* RNCryptor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNCryptor.framework; path = depedencies/RNCryptor.framework; sourceTree = "<group>"; };
+		F49A54D5258328C50034AF4F /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = depedencies/RxCocoa.framework; sourceTree = "<group>"; };
+		F49A54D6258328C60034AF4F /* Mixpanel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mixpanel.framework; path = depedencies/Mixpanel.framework; sourceTree = "<group>"; };
+		F49A54D7258328C60034AF4F /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = depedencies/PromiseKit.framework; sourceTree = "<group>"; };
+		F49A54D8258328C60034AF4F /* RxRealm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRealm.framework; path = depedencies/RxRealm.framework; sourceTree = "<group>"; };
+		F49A54D9258328C60034AF4F /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = depedencies/RxTest.framework; sourceTree = "<group>"; };
+		F49A54DA258328C60034AF4F /* PKHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PKHUD.framework; path = depedencies/PKHUD.framework; sourceTree = "<group>"; };
+		F49A54DB258328C60034AF4F /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = depedencies/RealmSwift.framework; sourceTree = "<group>"; };
+		F49A54DC258328C60034AF4F /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = depedencies/Realm.framework; sourceTree = "<group>"; };
+		F49A54DD258328C60034AF4F /* secp256k1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = secp256k1.framework; path = depedencies/secp256k1.framework; sourceTree = "<group>"; };
+		F49A54DE258328C60034AF4F /* HGCircularSlider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HGCircularSlider.framework; path = depedencies/HGCircularSlider.framework; sourceTree = "<group>"; };
+		F49A54DF258328C60034AF4F /* MatiGlobalIDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MatiGlobalIDSDK.framework; path = depedencies/MatiGlobalIDSDK.framework; sourceTree = "<group>"; };
+		F49A54E0258328C60034AF4F /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = depedencies/SnapKit.framework; sourceTree = "<group>"; };
+		F4FA72D62519FE3D00127922 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		F4FA72D72519FE3D00127922 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		F4FA72D82519FE3D00127922 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		F4FA72D92519FE3D00127922 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F4FA72DA2519FE3D00127922 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		F4FA72DB2519FE3D00127922 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		F4FA72DC2519FE3D00127922 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		F4FA72DD2519FE3D00127922 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		F4FA72DE2519FE3D00127922 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		F4FA72DF2519FE3D00127922 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,37 +270,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F42E3BBE2574CC870040C5E5 /* KeychainSwift.framework in Frameworks */,
+				F49A550F258328C70034AF4F /* RxCocoa.framework in Frameworks */,
+				F49A550D258328C70034AF4F /* RNCryptor.framework in Frameworks */,
+				F49A54E1258328C60034AF4F /* AMPopTip.framework in Frameworks */,
+				F49A54E5258328C60034AF4F /* FBSDKCoreKit.framework in Frameworks */,
+				F49A5501258328C70034AF4F /* CocoaLumberjack.framework in Frameworks */,
+				F49A54EF258328C60034AF4F /* Celersdk.framework in Frameworks */,
+				F49A54FF258328C70034AF4F /* SwiftMessages.framework in Frameworks */,
+				F49A5519258328C80034AF4F /* PKHUD.framework in Frameworks */,
+				F49A5509258328C70034AF4F /* SipHash.framework in Frameworks */,
+				F49A5503258328C70034AF4F /* Lottie.framework in Frameworks */,
+				F49A54F5258328C60034AF4F /* Stripe.framework in Frameworks */,
+				F49A5515258328C80034AF4F /* RxRealm.framework in Frameworks */,
+				F49A5517258328C80034AF4F /* RxTest.framework in Frameworks */,
+				F49A5505258328C70034AF4F /* RxBlocking.framework in Frameworks */,
+				F49A54F3258328C60034AF4F /* KeychainSwift.framework in Frameworks */,
+				F49A54F9258328C60034AF4F /* Nantes.framework in Frameworks */,
+				F49A54F1258328C60034AF4F /* CryptoSwift.framework in Frameworks */,
+				F49A551B258328C80034AF4F /* RealmSwift.framework in Frameworks */,
 				2443DC5818D662CA00C920C1 /* CoreGraphics.framework in Frameworks */,
+				F49A5523258328C90034AF4F /* MatiGlobalIDSDK.framework in Frameworks */,
+				F49A550B258328C70034AF4F /* SwiftyUserDefaults.framework in Frameworks */,
+				F49A54FD258328C70034AF4F /* CocoaLumberjackSwift.framework in Frameworks */,
+				F49A54FB258328C60034AF4F /* Instabug.framework in Frameworks */,
+				F49A54ED258328C60034AF4F /* BigInt.framework in Frameworks */,
 				2443DC5A18D662CA00C920C1 /* UIKit.framework in Frameworks */,
-				F42E3BAA2574CC860040C5E5 /* MatiGlobalIDSDK.framework in Frameworks */,
-				F42E3BB42574CC860040C5E5 /* SwiftyUserDefaults.framework in Frameworks */,
-				F42E3BAC2574CC860040C5E5 /* FBSDKCoreKit.framework in Frameworks */,
-				F42E3BB62574CC870040C5E5 /* Nantes.framework in Frameworks */,
-				F42E3BA62574CC860040C5E5 /* CocoaLumberjack.framework in Frameworks */,
-				F42E3BB82574CC870040C5E5 /* SwiftMessages.framework in Frameworks */,
+				F49A5511258328C80034AF4F /* Mixpanel.framework in Frameworks */,
+				F49A5513258328C80034AF4F /* PromiseKit.framework in Frameworks */,
+				F49A54EB258328C60034AF4F /* Starscream.framework in Frameworks */,
+				F49A5525258328C90034AF4F /* SnapKit.framework in Frameworks */,
+				F49A54E9258328C60034AF4F /* RxSwift.framework in Frameworks */,
+				F49A5521258328C90034AF4F /* HGCircularSlider.framework in Frameworks */,
+				F49A54E7258328C60034AF4F /* RxRelay.framework in Frameworks */,
+				F49A54E3258328C60034AF4F /* CelerGameSdk.framework in Frameworks */,
+				F49A551F258328C80034AF4F /* secp256k1.framework in Frameworks */,
+				F49A5507258328C70034AF4F /* SquareInAppPaymentsSDK.framework in Frameworks */,
+				F49A551D258328C80034AF4F /* Realm.framework in Frameworks */,
 				2443DC5C18D662CA00C920C1 /* SpriteKit.framework in Frameworks */,
-				F42E3BC42574CC880040C5E5 /* RNCryptor.framework in Frameworks */,
-				F42E3BD42574CC890040C5E5 /* Lottie.framework in Frameworks */,
-				F42E3BBA2574CC870040C5E5 /* Instabug.framework in Frameworks */,
-				F42E3BA82574CC860040C5E5 /* CelerGameSdk.framework in Frameworks */,
-				F42E3BAE2574CC860040C5E5 /* secp256k1.framework in Frameworks */,
-				F42E3BC22574CC870040C5E5 /* BigInt.framework in Frameworks */,
-				F42E3BC62574CC880040C5E5 /* SnapKit.framework in Frameworks */,
-				F42E3BA42574CC860040C5E5 /* AMPopTip.framework in Frameworks */,
-				F42E3BCA2574CC880040C5E5 /* CryptoSwift.framework in Frameworks */,
-				F42E3BA22574CC860040C5E5 /* web3swift.framework in Frameworks */,
-				F42E3BD02574CC890040C5E5 /* HGCircularSlider.framework in Frameworks */,
-				F42E3BBC2574CC870040C5E5 /* Mixpanel.framework in Frameworks */,
-				F42E3BC82574CC880040C5E5 /* CocoaLumberjackSwift.framework in Frameworks */,
-				2443DC5618D662CA00C920C1 /* Foundation.framework in Frameworks */,
-				F42E3BCC2574CC880040C5E5 /* Starscream.framework in Frameworks */,
-				F42E3BCE2574CC880040C5E5 /* Celersdk.framework in Frameworks */,
-				F42E3BC02574CC870040C5E5 /* Stripe.framework in Frameworks */,
-				F42E3BB02574CC860040C5E5 /* AcceptSDK.framework in Frameworks */,
-				F42E3BD22574CC890040C5E5 /* PromiseKit.framework in Frameworks */,
-				F42E3BA02574CC860040C5E5 /* SquareInAppPaymentsSDK.framework in Frameworks */,
-				F42E3BB22574CC860040C5E5 /* PKHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +316,6 @@
 			files = (
 				2443DC7C18D662CA00C920C1 /* XCTest.framework in Frameworks */,
 				2443DC7E18D662CA00C920C1 /* UIKit.framework in Frameworks */,
-				2443DC7D18D662CA00C920C1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,9 +325,9 @@
 		2443DC4918D662CA00C920C1 = {
 			isa = PBXGroup;
 			children = (
-				F42E3BD82574CCFC0040C5E5 /* GoogleService-Info.plist */,
 				F4733F1E24D3235C00CD3C83 /* README.md */,
-				F42E3BE92575E7E60040C5E5 /* Font */,
+				F44BFF4924D2E8AA00FB1280 /* GoogleService-Info.plist */,
+				F4FA72D52519FE3D00127922 /* Font */,
 				2443DC5D18D662CA00C920C1 /* m2048 */,
 				2443DC8118D662CA00C920C1 /* m2048Tests */,
 				2443DC5418D662CA00C920C1 /* Frameworks */,
@@ -316,34 +347,41 @@
 		2443DC5418D662CA00C920C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F42E3B8D2574CC850040C5E5 /* AcceptSDK.framework */,
-				F42E3B872574CC850040C5E5 /* AMPopTip.framework */,
-				F42E3B962574CC850040C5E5 /* BigInt.framework */,
-				F42E3B892574CC850040C5E5 /* CelerGameSdk.framework */,
-				F42E3B9C2574CC860040C5E5 /* Celersdk.framework */,
-				F42E3B882574CC850040C5E5 /* CocoaLumberjack.framework */,
-				F42E3B992574CC850040C5E5 /* CocoaLumberjackSwift.framework */,
-				F42E3B9A2574CC850040C5E5 /* CryptoSwift.framework */,
-				F42E3B8B2574CC850040C5E5 /* FBSDKCoreKit.framework */,
-				F42E3B9D2574CC860040C5E5 /* HGCircularSlider.framework */,
-				F42E3B922574CC850040C5E5 /* Instabug.framework */,
-				F42E3B942574CC850040C5E5 /* KeychainSwift.framework */,
-				F42E3B9F2574CC860040C5E5 /* Lottie.framework */,
-				F42E3B8A2574CC850040C5E5 /* MatiGlobalIDSDK.framework */,
-				F42E3B932574CC850040C5E5 /* Mixpanel.framework */,
-				F42E3B902574CC850040C5E5 /* Nantes.framework */,
-				F42E3B8E2574CC850040C5E5 /* PKHUD.framework */,
-				F42E3B9E2574CC860040C5E5 /* PromiseKit.framework */,
-				F42E3B972574CC850040C5E5 /* RNCryptor.framework */,
-				F42E3B8C2574CC850040C5E5 /* secp256k1.framework */,
-				F42E3B982574CC850040C5E5 /* SnapKit.framework */,
-				F42E3B852574CC850040C5E5 /* SquareInAppPaymentsSDK.framework */,
-				F42E3B9B2574CC860040C5E5 /* Starscream.framework */,
-				F42E3B952574CC850040C5E5 /* Stripe.framework */,
-				F42E3B912574CC850040C5E5 /* SwiftMessages.framework */,
-				F42E3B8F2574CC850040C5E5 /* SwiftyUserDefaults.framework */,
-				F42E3B862574CC850040C5E5 /* web3swift.framework */,
-				2443DC5518D662CA00C920C1 /* Foundation.framework */,
+				F442D6FC2583348300A7A29A /* XCTest.framework */,
+				F49A54BE258328C50034AF4F /* AMPopTip.framework */,
+				F49A54C4258328C50034AF4F /* BigInt.framework */,
+				F49A54BF258328C50034AF4F /* CelerGameSdk.framework */,
+				F49A54C5258328C50034AF4F /* Celersdk.framework */,
+				F49A54CE258328C50034AF4F /* CocoaLumberjack.framework */,
+				F49A54CC258328C50034AF4F /* CocoaLumberjackSwift.framework */,
+				F49A54C6258328C50034AF4F /* CryptoSwift.framework */,
+				F49A54C0258328C50034AF4F /* FBSDKCoreKit.framework */,
+				F49A54DE258328C60034AF4F /* HGCircularSlider.framework */,
+				F49A54CB258328C50034AF4F /* Instabug.framework */,
+				F49A54C7258328C50034AF4F /* KeychainSwift.framework */,
+				F49A54CF258328C50034AF4F /* Lottie.framework */,
+				F49A54DF258328C60034AF4F /* MatiGlobalIDSDK.framework */,
+				F49A54D6258328C60034AF4F /* Mixpanel.framework */,
+				F49A54CA258328C50034AF4F /* Nantes.framework */,
+				F49A54DA258328C60034AF4F /* PKHUD.framework */,
+				F49A54D7258328C60034AF4F /* PromiseKit.framework */,
+				F49A54DC258328C60034AF4F /* Realm.framework */,
+				F49A54DB258328C60034AF4F /* RealmSwift.framework */,
+				F49A54D4258328C50034AF4F /* RNCryptor.framework */,
+				F49A54D0258328C50034AF4F /* RxBlocking.framework */,
+				F49A54D5258328C50034AF4F /* RxCocoa.framework */,
+				F49A54D8258328C60034AF4F /* RxRealm.framework */,
+				F49A54C1258328C50034AF4F /* RxRelay.framework */,
+				F49A54C2258328C50034AF4F /* RxSwift.framework */,
+				F49A54D9258328C60034AF4F /* RxTest.framework */,
+				F49A54DD258328C60034AF4F /* secp256k1.framework */,
+				F49A54D2258328C50034AF4F /* SipHash.framework */,
+				F49A54E0258328C60034AF4F /* SnapKit.framework */,
+				F49A54D1258328C50034AF4F /* SquareInAppPaymentsSDK.framework */,
+				F49A54C3258328C50034AF4F /* Starscream.framework */,
+				F49A54C8258328C50034AF4F /* Stripe.framework */,
+				F49A54CD258328C50034AF4F /* SwiftMessages.framework */,
+				F49A54D3258328C50034AF4F /* SwiftyUserDefaults.framework */,
 				2443DC5718D662CA00C920C1 /* CoreGraphics.framework */,
 				2443DC5918D662CA00C920C1 /* UIKit.framework */,
 				2443DC5B18D662CA00C920C1 /* SpriteKit.framework */,
@@ -469,19 +507,19 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		F42E3BE92575E7E60040C5E5 /* Font */ = {
+		F4FA72D52519FE3D00127922 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				F42E3BEA2575E7E60040C5E5 /* OpenSans-SemiBold.ttf */,
-				F42E3BEB2575E7E60040C5E5 /* OpenSans-Light.ttf */,
-				F42E3BEC2575E7E60040C5E5 /* OpenSans-Italic.ttf */,
-				F42E3BED2575E7E60040C5E5 /* OpenSans-ExtraBold.ttf */,
-				F42E3BEE2575E7E60040C5E5 /* OpenSans-LightItalic.ttf */,
-				F42E3BEF2575E7E60040C5E5 /* OpenSans-Bold.ttf */,
-				F42E3BF02575E7E60040C5E5 /* OpenSans-SemiBoldItalic.ttf */,
-				F42E3BF12575E7E60040C5E5 /* OpenSans-ExtraBoldItalic.ttf */,
-				F42E3BF22575E7E60040C5E5 /* OpenSans-Regular.ttf */,
-				F42E3BF32575E7E60040C5E5 /* OpenSans-BoldItalic.ttf */,
+				F4FA72D62519FE3D00127922 /* OpenSans-SemiBold.ttf */,
+				F4FA72D72519FE3D00127922 /* OpenSans-Light.ttf */,
+				F4FA72D82519FE3D00127922 /* OpenSans-Italic.ttf */,
+				F4FA72D92519FE3D00127922 /* OpenSans-ExtraBold.ttf */,
+				F4FA72DA2519FE3D00127922 /* OpenSans-LightItalic.ttf */,
+				F4FA72DB2519FE3D00127922 /* OpenSans-Bold.ttf */,
+				F4FA72DC2519FE3D00127922 /* OpenSans-SemiBoldItalic.ttf */,
+				F4FA72DD2519FE3D00127922 /* OpenSans-ExtraBoldItalic.ttf */,
+				F4FA72DE2519FE3D00127922 /* OpenSans-Regular.ttf */,
+				F4FA72DF2519FE3D00127922 /* OpenSans-BoldItalic.ttf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -568,22 +606,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F42E3BF62575E7E60040C5E5 /* OpenSans-Italic.ttf in Resources */,
-				F42E3BFB2575E7E60040C5E5 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				F4FA72E32519FE3D00127922 /* OpenSans-ExtraBold.ttf in Resources */,
+				F4FA72E42519FE3D00127922 /* OpenSans-LightItalic.ttf in Resources */,
 				2443DC6218D662CA00C920C1 /* InfoPlist.strings in Resources */,
-				F42E3BF92575E7E60040C5E5 /* OpenSans-Bold.ttf in Resources */,
-				F42E3BFA2575E7E60040C5E5 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				F44BFF4A24D2E8AA00FB1280 /* GoogleService-Info.plist in Resources */,
+				F4FA72E22519FE3D00127922 /* OpenSans-Italic.ttf in Resources */,
+				F4FA72E82519FE3D00127922 /* OpenSans-Regular.ttf in Resources */,
+				F4FA72E92519FE3D00127922 /* OpenSans-BoldItalic.ttf in Resources */,
 				F4733F1F24D3235C00CD3C83 /* README.md in Resources */,
-				F42E3BF52575E7E60040C5E5 /* OpenSans-Light.ttf in Resources */,
-				F42E3BF42575E7E60040C5E5 /* OpenSans-SemiBold.ttf in Resources */,
-				F42E3BF82575E7E60040C5E5 /* OpenSans-LightItalic.ttf in Resources */,
+				F4FA72E72519FE3D00127922 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				F4FA72E02519FE3D00127922 /* OpenSans-SemiBold.ttf in Resources */,
 				F44BFF4C24D31AEE00FB1280 /* LaunchScreen.storyboard in Resources */,
-				F42E3BFC2575E7E60040C5E5 /* OpenSans-Regular.ttf in Resources */,
+				F4FA72E12519FE3D00127922 /* OpenSans-Light.ttf in Resources */,
+				F4FA72E52519FE3D00127922 /* OpenSans-Bold.ttf in Resources */,
 				2443DC7518D662CA00C920C1 /* Images.xcassets in Resources */,
+				F4FA72E62519FE3D00127922 /* OpenSans-SemiBoldItalic.ttf in Resources */,
 				2443DC6B18D662CA00C920C1 /* Main.storyboard in Resources */,
-				F42E3BD92574CCFC0040C5E5 /* GoogleService-Info.plist in Resources */,
-				F42E3BFD2575E7E60040C5E5 /* OpenSans-BoldItalic.ttf in Resources */,
-				F42E3BF72575E7E60040C5E5 /* OpenSans-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -756,6 +794,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 25KA2BRRPZ;
+				ENABLE_TESTABILITY = NO;
+				ENABLE_TESTING_SEARCH_PATHS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/depedencies",
@@ -763,10 +803,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "m2048/m2048-Prefix.pch";
 				INFOPLIST_FILE = "m2048/m2048-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.10;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.mygame;
+				MARKETING_VERSION = 2.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.myapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -780,6 +820,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 25KA2BRRPZ;
+				ENABLE_TESTABILITY = NO;
+				ENABLE_TESTING_SEARCH_PATHS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/depedencies",
@@ -787,10 +829,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "m2048/m2048-Prefix.pch";
 				INFOPLIST_FILE = "m2048/m2048-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.10;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.mygame;
+				MARKETING_VERSION = 2.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.myapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;

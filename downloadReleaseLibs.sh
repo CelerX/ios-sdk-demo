@@ -1,6 +1,6 @@
 file_name=depedencies.zip
 
-curl -O https://celer.oss-cn-shanghai.aliyuncs.com/iOSSdkArchive/v2_15_2/$file_name
+curl -O https://celer.oss-cn-shanghai.aliyuncs.com/iOSSdkArchive/v2_17_0/$file_name
 
 rm -r depedencies
 
