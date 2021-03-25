@@ -4,12 +4,6 @@ This is a demo repo for CelerX native iOS game SDK for an example 2048 game.
 
 ## Download Necessary Depedencies
 
--- Debug
-
-```shell
-sh downloadLibs.sh
-```
-
 -- Release
 
 ```shell
@@ -22,13 +16,9 @@ It will download all the required dependencies for CelerGameSDK
 
 - Embed everything from the dependencies folder
 ![embed](./img/embedLibs.png)
-- Change `Celersdk.framework` to `Do not embed`
-![link](./img/linkCelerSdk.png)
 - Disable bitcode(Due to one of the embeded library, might change in the future)
 ![disableBitCode](./img/disableBitCode.png)
-- Add Your Resource Bundle(For cover arts etc)
 - Add Your GoogleService-Info.plist(Push Notification)
-![resourceBundle](./img/resourceBundle.png)
 - Register your BundleId with our portal
 ![bundleId](./img/bundleId.png)
 
@@ -178,4 +168,4 @@ submit Score
 - An universal framework that supports simulator and devices will be provided, it will run on a debug environment
 - A release framework only supports devices will be provided for appstore, it will run on release configuration
 - For a pure OC project target before ios 12.2, please enable `Always Embed Swift Standard Libraries` settings [https://stackoverflow.com/questions/55364816/with-swift-5-and-ios-12-2-should-i-change-always-embed-swift-standard-librarie]
-- Minimuim sdk requirement is iOS 11
+- Minimuim sdk requirement is iOS 13
